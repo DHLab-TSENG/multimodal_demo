@@ -1,41 +1,32 @@
-### 
-
-[HAIM GitHub repository](https://github.com/lrsoenksen/HAIM)  
-## PreTrained Model 
-### ECG: Automatic ECG diagnosis 
-https://github.com/antonior92/automatic-ecg-diagnosis
-https://zenodo.org/records/3765717
-
-### Note: Clinical BERT 
-https://github.com/EmilyAlsentzer/clinicalBERT?tab=readme-ov-file
-
-### XRay: TorchXRayVision 
-https://github.com/mlmed/torchxrayvision
 
 
 ## Code
 ### Embeddings Generation
+#### HAIM API : [MIMIC_IV_HAIM_API.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/MIMIC_IV_HAIM_API.py)  
+> Embeddings Generation is based on HAIM[1].  
+> Clone repository in https://github.com/lrsoenksen/HAIM/blob/main/MIMIC_IV_HAIM_API.py
 
+#### Time series VitalSigns Embedding : [timeseries_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/timeseries_embedding.ipynb)  
+> Time series data are processed by generating statistical metrics on each of the time-dependent to produce embeddings.[1]    
+  
+#### ECG Signal Embedding : [ecg_embedding.ipynb](https://github.com/DHLab-TSENGmultimodal_demo/blob/main/ecg_embedding.ipynb)  
+> Signal inputs are processed using a pre-trained CNN model[8] to extract embeddings that are the model output and dense features.[1]  
+> Pre-Trained ECG Model[8] : [Automatic ECG diagnosis](https://github.com/antonior92/automatic-ecg-diagnosis)
 
-#### Time series VitalSigns Embedding 
-[timeseries_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/timeseries_embedding.ipynb)  
-Time series data are processed by generating statistical metrics on each of the time-dependent to produce embeddings.[1]()
+#### CXR Image Embedding : [cxr_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/cxr_embedding.ipynb)  
+> Image inputs are processed using a pre-trained CNN model[6] to extract embeddings that are the model output and dense features.[1]   
+> Pre-Trained CXR Model[6] : [XRay: TorchXRayVision](https://github.com/mlmed/torchxrayvision)
 
-#### ECG Signal Embedding 
-[ecg_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/ecg_embedding.ipynb)
+#### CXR Diagnosis Note Embedding : [note_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/note_embedding.ipynb)  
+> Natural language inputs are processed using a pre-trained transformer model[7] to generate text embeddings.[1]  
+> Pre-Trained Language Model[7] : [Clinical BERT](https://github.com/EmilyAlsentzer/clinicalBERT?tab=readme-ov-file)
 
-#### CXR Image Embedding 
-[cxr_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/cxr_embedding.ipynb)
-
-#### CXR Diagnosis Note Embedding 
-[note_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/note_embedding.ipynb)
-Natural language inputs are processed using a pre-trained transformer model[7] to generate text embeddings.[1]
-
-### Mortality Prediction 
-[prediction.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/prediction.ipynb)
+### Mortality Prediction : [prediction.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/prediction.ipynb)  
+> 
+> 
 
 ## Data
-Defined in [data_class.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/data_class.py)
+Defined in [data_class.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/data_class.py)  
 
 #### Patient class structure
 ```python
