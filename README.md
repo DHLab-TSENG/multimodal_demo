@@ -1,5 +1,4 @@
 
-
 ## Code
 ### Embeddings Generation
 #### HAIM API : [MIMIC_IV_HAIM_API.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/MIMIC_IV_HAIM_API.py)  
@@ -22,8 +21,7 @@
 > Pre-Trained Language Model[7] : [Clinical BERT](https://github.com/EmilyAlsentzer/clinicalBERT?tab=readme-ov-file)
 
 ### Mortality Prediction : [prediction.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/prediction.ipynb)  
-> 
-> 
+> In hospital mortality prediction using fusion embeddings from 5 modalities data(tabular/time series/signal/note/image).
 
 ## Data
 Defined in [data_class.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/data_class.py)  
