@@ -25,6 +25,10 @@
 
 ## Data
 Defined in [data_class.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/data_class.py)  
+> In this work, utilize the MIMIC-IV Clinical Database[2].
+> The ECG signal is from MIMIC-IV-ECG[4]
+> The CXR Note is from MIMIC-CXR-JPG[4]
+
 
 #### Patient class structure
 ```python
