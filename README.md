@@ -8,7 +8,7 @@
 #### Time series VitalSigns Embedding : [timeseries_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/timeseries_embedding.ipynb)  
 > Time series data are processed by generating statistical metrics on each of the time-dependent to produce embeddings.[1]    
   
-#### ECG Signal Embedding : [ecg_embedding.ipynb](https://github.com/DHLab-TSENGmultimodal_demo/blob/main/ecg_embedding.ipynb)  
+#### ECG Signal Embedding : [ecg_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/ecg_embedding.ipynb)  
 > Signal inputs are processed using a pre-trained CNN model[9] to extract embeddings that are the model output and dense features.[1]  
 > Pre-Trained ECG Model[9] : [Automatic ECG diagnosis](https://github.com/antonior92/automatic-ecg-diagnosis)
 
