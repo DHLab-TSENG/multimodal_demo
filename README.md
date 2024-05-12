@@ -10,15 +10,17 @@
   
 #### ECG Signal Embedding : [ecg_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/ecg_embedding.ipynb)  
 > Signal inputs are processed using a pre-trained CNN model[9] to extract embeddings that are the model output and dense features.[1]  
-> Pre-Trained ECG Model[9] : [Automatic ECG diagnosis](https://github.com/antonior92/automatic-ecg-diagnosis)
+> Pre-Trained ECG Model[9] : [Automatic ECG diagnosis](https://github.com/antonior92/automatic-ecg-diagnosis)  
+> [Model download link](https://zenodo.org/records/3765717)  
 
 #### CXR Image Embedding : [cxr_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/cxr_embedding.ipynb)  
 > Image inputs are processed using a pre-trained CNN model[7] to extract embeddings that are the model output and dense features.[1]   
-> Pre-Trained CXR Model[7] : [XRay: TorchXRayVision](https://github.com/mlmed/torchxrayvision)
+> Pre-Trained CXR Model[7] : [XRay: TorchXRayVision](https://github.com/mlmed/torchxrayvision)  
 
 #### CXR Diagnosis Note Embedding : [note_embedding.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/note_embedding.ipynb)  
 > Natural language inputs are processed using a pre-trained transformer model[8] to generate text embeddings.[1]  
-> Pre-Trained Language Model[8] : [Clinical BERT](https://github.com/EmilyAlsentzer/clinicalBERT?tab=readme-ov-file)
+> Pre-Trained Language Model[8] : [Clinical BERT](https://github.com/EmilyAlsentzer/clinicalBERT?tab=readme-ov-file)  
+> [Model download link](https://www.dropbox.com/s/8armk04fu16algz/pretrained_bert_tf.tar.gz?e=1&dl=0)  
 
 ### Mortality Prediction : [prediction.ipynb](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/prediction.ipynb)  
 > In hospital mortality prediction using fusion embeddings from 5 modalities data(tabular/time series/signal/note/image).
