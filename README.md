@@ -34,7 +34,7 @@ Defined in [data_class.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/m
 #### Patient class structure
 > Patient object contains clinical raw data from a single subject.  
 > patient object save as  pickle file, file path is "./sample_patient/[subject_id].pkl".  
-> download from [Google Drive](https://drive.google.com/drive/folders/1Fnxb9XMygHcPi259Rd5GG02087FLbP72?usp=sharing)  
+
 ```python
 class patient:
     def __init__(self):
