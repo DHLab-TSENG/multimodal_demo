@@ -1,8 +1,9 @@
 
 ## Wrap-up
--  Slides: https://dhlab-tseng.github.io/multimodal_demo/MMLforEHR.slides.html
+-  Slides (Code): https://dhlab-tseng.github.io/multimodal_demo/MMLforEHR.slides.html
 -  Notebook: https://dhlab-tseng.github.io/multimodal_demo/MMLforEHR.html
--  
+-  Slides: https://docs.google.com/presentation/d/1QeXEGVmBTPQino78FAUfwduMeUtf7UlfINPIQM3ouZc/edit?usp=sharing
+  
 ## Code
 ### Embeddings Generation
 #### HAIM API : [MIMIC_IV_HAIM_API.py](https://github.com/DHLab-TSENG/multimodal_demo/blob/main/MIMIC_IV_HAIM_API.py)  
